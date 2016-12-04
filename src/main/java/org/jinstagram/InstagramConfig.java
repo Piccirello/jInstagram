@@ -7,8 +7,8 @@ public class InstagramConfig {
     private String baseURI;
     private String version;
     private String apiURL;
-    private int connectionTimeoutMills = 0;
-    private int readTimeoutMills = 0;
+    private int connectionTimeoutMills = 120000;
+    private int readTimeoutMills = 120000;
     private boolean connectionKeepAlive = false;
     private boolean enforceSignedRequest = false;
 
